@@ -53,4 +53,17 @@ class SentimentTest extends PHPUnit_Framework_TestCase{
   $this->assertEquals(-0.0048, $var->analyse('Schuftigerer') );
   unset($var);
   } 
+
+  public function testIstHauptwort(){
+  $var = new aheissenberger\sentimentanalyser\Sentiment;
+  $this->assertEquals(-0.0048, $var->analyse('abnutzung') );
+  unset($var);
+  } 
+
+  public function testKeinHauptwort(){
+  $var = new aheissenberger\sentimentanalyser\Sentiment;
+  $this->assertEquals(-0.3203, $var->analyse('Übertrieben') );
+  unset($var);
+  } 
+
 }
