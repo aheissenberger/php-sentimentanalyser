@@ -16,7 +16,7 @@ Installation
 To get the latest version of  Sentiment Analysis, simply add the following line to the require block of your composer.json file:
 
 ```
-composer require aheissenberger/sentimentanalyser
+composer require aheissenberger/sentimentanalyser:dev-master
 ```
 
 

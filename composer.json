@@ -20,5 +20,7 @@
         "psr-4": {
             "aheissenberger\\sentimentanalyser\\": "src/"
         }
-    }
+    },
+    "version": "1.0.0", //Version of the package
+    "minimum-stability": "dev" //Stability
 }
