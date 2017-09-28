@@ -32,7 +32,7 @@ class SentimentTest extends PHPUnit_Framework_TestCase{
   */
   public function testLongText(){
 	$var = new aheissenberger\sentimentanalyser\Sentiment;
-	$this->assertEquals( -0.1779, $var->analyse('Einen Schlagabtausch lieferten sich die weltoffene Richterin und der blaue Parteichef aber nicht. Strache nahm die Rolle des höflichen Gesprächspartners ein.Seine Tonalität war 45 Minuten gemäßigt. "Doppelstaatsbürgerschaften finde ich empörend", war schon der heftigste Sager des FPÖ-Chefs. So viel Gentleman-Attitüde zeigte Strache noch nie.'));
+	$this->assertEquals( -0.1779, $var->analyse('Einen Schlagabtausch lieferten sich die weltoffene Richterin und der gelben Parteichef aber nicht. Hans nahm die Rolle des höflichen Gesprächspartners ein.Seine Tonalität war 45 Minuten gemäßigt. "Doppelstaatsbürgerschaften finde ich empörend", war schon der heftigste Sager des XXX-Chefs. So viel Gentleman-Attitüde zeigte Hans noch nie.'));
 	unset($var);
   }
 /**
