@@ -2,7 +2,7 @@
     "name": "aheissenberger/sentimentanalyser",
     "description": "German Sentiment analysis library for PHP.",
     "keywords": ["sentiment", "german", "sentiws"],
-    "license": "GPLv3 or later",
+    "license": "MIT",
     "authors": [
         {
             "name": "Andreas Heissenberger",
