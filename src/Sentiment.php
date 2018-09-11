@@ -69,7 +69,7 @@ class Sentiment{
           array_key_exists( ($word = mb_strtolower($word)), $this->dict)  || // check if word exists with lower letters
           array_key_exists( ($word = mb_convert_case($word, MB_CASE_TITLE)), $this->dict) ) // check if word exists with lower letters and first letter big
      {
-      $score = ( preg_match($this->negate, $word) ? -$this->dict[$word] : $this->dict[$word] );
+      $score = ( preg_match($this->negate, $prev) ? -$this->dict[$word] : $this->dict[$word] );
      }
      $sum += $score;
      $prev = $word;
