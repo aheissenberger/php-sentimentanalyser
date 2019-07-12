@@ -26,7 +26,7 @@ Returns a positive number for positive sentiment association and negative number
 
 ```
 $var = new aheissenberger\sentimentanalyser\Sentiment;
-echo $var->analyse('Es ist nicht so toll'));
+echo $var->analyse('Es ist nicht so toll');
 //=> (negative)
 ```
 
